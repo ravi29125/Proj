@@ -19,7 +19,7 @@ def receive():
 
     prompt=p1+p2+p3
     
-    genai.configure(api_key="AIzaSyC-QFcJGvAABRR7JvouXjmUTb75JZ2oMew")
+    genai.configure(api_key="API-KEY")
 
     model = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
     response = model.generate_content(prompt)
